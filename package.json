@@ -1,0 +1,23 @@
+{
+  "name": "browserify-high-priority-extensions",
+  "private": false,
+  "version": "0.1.0",
+  "description": "Provide high priority for Browserify extensions option",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Chuan Shao",
+  "devDependencies": {
+    "istanbul": "^0.4.4",
+    "lodash": "^4.16.4",
+    "mocha": "^3.0.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shaochuancs/browserify-high-priority-extensions.git"
+  }
+}
